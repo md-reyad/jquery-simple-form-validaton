@@ -1,0 +1,367 @@
+.navbar-default {
+    background-color: #f0f0f0;
+    /* default #f8f8f8
+    e0e0e8
+    f0f0f0
+    */
+    border-color: #e7e7e7;
+}
+
+.page-header {
+    border-bottom: 1px solid #eee;
+    margin: 15px 0 20px 0px;
+    padding-bottom: 10px;
+}
+
+.navbar-top-links .language{
+    width: 150px;
+}
+.navbar-top-links .language li{
+    /*display: inline-block; !important;*/
+}
+.error{
+    color: red !important;
+    border: 1px solid red;
+}
+
+input[type="radio"].error, input[type="checkbox"].error {
+    outline: 1px solid red;
+}
+
+.required-star:after{
+    color: red;
+    content: " *";
+}
+
+.profile-user-img{margin:0 auto;width:150px;padding:3px;border:3px solid #d9edf7}.profile-username{font-size:21px;margin-top:5px}
+.letter-img{margin:0 auto;width:150px;padding:3px;}
+
+
+/** The Magic **/
+.btn-breadcrumb .btn:not(:last-child):after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 10px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    left: 100%;
+    z-index: 3;
+}
+.btn-breadcrumb .btn:not(:last-child):before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 10px solid rgb(173, 173, 173);
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    margin-left: 1px;
+    left: 100%;
+    z-index: 3;
+}
+
+/** The Spacing **/
+.btn-breadcrumb .btn {
+    padding:6px 12px 6px 24px;
+}
+.btn-breadcrumb .btn:first-child {
+    padding:6px 6px 6px 10px;
+}
+.btn-breadcrumb .btn:last-child {
+    padding:6px 18px 6px 24px;
+}
+
+/** Default button **/
+.btn-breadcrumb .btn.btn-default:not(:last-child):after {
+    border-left: 10px solid #fff;
+}
+.btn-breadcrumb .btn.btn-default:not(:last-child):before {
+    border-left: 10px solid #ccc;
+}
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):after {
+    border-left: 10px solid #ebebeb;
+}
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):before {
+    border-left: 10px solid #adadad;
+}
+
+/** Primary button **/
+.btn-breadcrumb .btn.btn-primary:not(:last-child):after {
+    border-left: 10px solid #428bca;
+}
+.btn-breadcrumb .btn.btn-primary:not(:last-child):before {
+    border-left: 10px solid #357ebd;
+}
+.btn-breadcrumb .btn.btn-primary:hover:not(:last-child):after {
+    border-left: 10px solid #3276b1;
+}
+.btn-breadcrumb .btn.btn-primary:hover:not(:last-child):before {
+    border-left: 10px solid #285e8e;
+}
+
+/** Success button **/
+.btn-breadcrumb .btn.btn-success:not(:last-child):after {
+    border-left: 10px solid #5cb85c;
+}
+.btn-breadcrumb .btn.btn-success:not(:last-child):before {
+    border-left: 10px solid #4cae4c;
+}
+.btn-breadcrumb .btn.btn-success:hover:not(:last-child):after {
+    border-left: 10px solid #47a447;
+}
+.btn-breadcrumb .btn.btn-success:hover:not(:last-child):before {
+    border-left: 10px solid #398439;
+}
+
+/** Danger button **/
+.btn-breadcrumb .btn.btn-danger:not(:last-child):after {
+    border-left: 10px solid #d9534f;
+}
+.btn-breadcrumb .btn.btn-danger:not(:last-child):before {
+    border-left: 10px solid #d43f3a;
+}
+.btn-breadcrumb .btn.btn-danger:hover:not(:last-child):after {
+    border-left: 10px solid #d2322d;
+}
+.btn-breadcrumb .btn.btn-danger:hover:not(:last-child):before {
+    border-left: 10px solid #ac2925;
+}
+
+/** Warning button **/
+.btn-breadcrumb .btn.btn-warning:not(:last-child):after {
+    border-left: 10px solid #f0ad4e;
+}
+.btn-breadcrumb .btn.btn-warning:not(:last-child):before {
+    border-left: 10px solid #eea236;
+}
+.btn-breadcrumb .btn.btn-warning:hover:not(:last-child):after {
+    border-left: 10px solid #ed9c28;
+}
+.btn-breadcrumb .btn.btn-warning:hover:not(:last-child):before {
+    border-left: 10px solid #d58512;
+}
+
+/** Info button **/
+.btn-breadcrumb .btn.btn-info:not(:last-child):after {
+    border-left: 10px solid #5bc0de;
+}
+.btn-breadcrumb .btn.btn-info:not(:last-child):before {
+    border-left: 10px solid #46b8da;
+}
+.btn-breadcrumb .btn.btn-info:hover:not(:last-child):after {
+    border-left: 10px solid #39b3d7;
+}
+.btn-breadcrumb .btn.btn-info:hover:not(:last-child):before {
+    border-left: 10px solid #269abc;
+}
+
+.custom-font{
+    /*font-size: 15px;*/
+    /*width: 30%;*/
+    /*height: 50px;*/
+    word-break: break-all;
+}
+
+.footer-text{
+    width: 250px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+
+.reload{
+    margin-left:10px;
+    cursor:pointer;
+    height: 15px;
+    width: 15px;
+}
+.cs-label{
+    font-weight:normal;
+    text-align:justify;
+}
+.cs-warning-bg:focus{
+    border:1px solid red;
+}
+.cs-success-bg:focus{
+    border:1px solid green;
+}
+.cs-error{
+    color:red;
+    float:left;
+    padding-top: 8px;
+}
+
+.header-caption
+{
+    text-align: center;
+    padding: 10px 0px 0px 10px;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0 !important;
+    text-shadow: 2px 2px 3px silver;
+    color: #004c99;
+
+}
+
+.fieldline{
+    background: #CEECF5;
+    padding: 10px 5px;
+    border-radius: 8px;
+    min-height: 345px !important;
+    box-sizing: border-box;
+}
+
+.fieldline dt,  .fieldline dd {
+    padding-bottom: 2px;
+}
+
+.profileIMG{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.shortinfo{
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.profileIMG img{
+    margin-bottom: 10px;
+}
+
+.qrcode{
+    text-align: center !important; 
+    padding-left: 10px;
+    width: 60% !important;
+}
+.table tbody tr > td.success {
+    background-color: #dff0d8 !important;
+}
+
+.table tbody tr > td.error {
+    background-color: #f2dede !important;
+}
+
+.table tbody tr > td.warning {
+    background-color: #fcf8e3 !important;
+}
+
+.table tbody tr > td.info {
+    background-color: #d9edf7 !important;
+}
+
+.table-hover tbody tr:hover > td.success {
+    background-color: #d0e9c6 !important;
+}
+
+.table-hover tbody tr:hover > td.error {
+    background-color: #ebcccc !important;
+}
+
+.table-hover tbody tr:hover > td.warning {
+    background-color: #faf2cc !important;
+}
+
+.table-hover tbody tr:hover > td.info {
+    background-color: #c4e3f3 !important;
+}
+.userResults{
+    display: inline-block;
+    width: 50%;
+    margin-left: 10px;
+}
+.profile-user-img-custom {
+    margin: 0 auto;
+    width: 50px;
+    padding: 1px;
+    border: 3px solid #d9edf7;
+}
+.panel-info > .panel-heading {
+    color: whitesmoke;
+    background-color: #46ABE3;
+    border-color: #bce8f1;
+    padding: 2px 5px;
+}
+.panel-info > .panel-heading h5 {
+}
+.panel-primary > .panel-heading {
+    padding: 2px 5px;
+}
+
+.has-error .form-control {
+    border-color: #a94442 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075) !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075) !important;
+}
+
+.datepicker .input-sm + .form-control-feedback {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #EEEEEE;
+    border: 1px solid #ccc;
+    color: #555555;
+}
+.datepicker .form-control-feedback {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    pointer-events: none;
+    background: #EEEEEE;
+    border: 1px solid
+}
+.datepicker .form-control:focus.form-control-feedback{
+    border: 1px solid #ccc;
+}
+.has-feedback label ~ .form-control-feedback {
+    top: 0px;
+    border-color: #ccc;
+}
+
+input.error {
+    background: rgb(251, 227, 228);
+    border: 1px solid #fbc2c4;
+    color: #8a1f11;
+}
+.form-group {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.table {
+    margin-bottom: 0px;
+}
+form.wizard {
+    margin-bottom: 0px;
+}
+.font-norm{
+    font-size: 13px;
+    font-weight: normal !important;
+}
+.success-modal{}
+.success-modal .modal-header{
+    background-color: #5bc0de;
+    color: #fff;
+}
+
+.success-modal .modal-content{
+    border: 2px solid #337ab7;
+}
+.success-modal .modal-body{
+    background-color: #fff;
+}
+.success-modal .modal-footer{}

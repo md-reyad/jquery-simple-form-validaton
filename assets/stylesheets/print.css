@@ -1,0 +1,48 @@
+.a4 {
+    width: 700px !important;
+}
+.a4 *{
+    font-size: 12px !important;
+    font-weight: bold;
+}
+.header-font {
+    font-size: 14px !important;
+    text-align: center !important;
+}
+td {
+    border-top: none !important;
+}
+.a4 hr {
+    border: 1px #000 dashed;
+}
+.normal-text {
+    font-weight: normal;
+}
+.grey-font {
+    color: silver;
+    text-align: center;
+}
+.grey-font td {
+    padding: 2px !important;
+}
+.horizontal dt {
+    float: left;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 3px;
+}
+.center-text {
+    text-align: center;
+}
+.cash td{
+    line-height: 4px !important;
+}
+.no-margin-table{
+    margin-bottom: 0px;
+    margin: 0px;
+}
+.botton-border{
+    border-bottom: 1px #ddd solid;
+}
